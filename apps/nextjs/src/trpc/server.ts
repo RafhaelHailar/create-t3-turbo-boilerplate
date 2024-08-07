@@ -5,7 +5,6 @@ import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import { createTRPCClient, loggerLink, TRPCClientError } from "@trpc/client";
 import { callProcedure } from "@trpc/server";
 import { observable } from "@trpc/server/observable";
-import SuperJSON from "superjson";
 
 import { appRouter, createTRPCContext } from "@acme/api";
 
